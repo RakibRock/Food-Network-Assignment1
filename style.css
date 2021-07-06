@@ -149,9 +149,15 @@ body {
   margin: auto;
 }
 
-.item h2,
-h3,
-p {
+.item h2 {
+  text-align: center;
+}
+
+.item h3 {
+  text-align: center;
+}
+
+.item p {
   text-align: center;
 }
 
@@ -159,7 +165,7 @@ p {
   text-decoration: none;
   color: orange;
   font-weight: bold;
-  padding-left: 30%;
+  padding-left: 33%;
 }
 
 footer {
