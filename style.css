@@ -133,6 +133,7 @@ body {
 #pricing-h1 {
   text-align: center;
   padding-top: 5%;
+  font-size: 50px;
 }
 
 .item {
@@ -159,6 +160,10 @@ body {
 
 .item p {
   text-align: center;
+}
+
+#fonts {
+  font-size: 50px;
 }
 
 .item a {
