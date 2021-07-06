@@ -1,0 +1,173 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.flexible-container {
+  display: flex;
+}
+
+.hero-section {
+  padding-left: 7%;
+  padding-bottom: 100px;
+}
+
+#hero-heading {
+  font-size: 60px;
+  line-height: 1.3;
+  padding-top: 14%;
+}
+
+.h1-skip {
+  color: orangered;
+}
+
+.left {
+  width: 50%;
+  padding-top: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  width: 50%;
+  padding-top: 10%;
+}
+
+.right img {
+  width: 80%;
+}
+
+.button {
+  text-decoration: none;
+  background-image: linear-gradient(to right, red, orange);
+  padding: 10px 40px 10px 40px;
+  border-radius: 30px;
+  margin-top: 20px;
+  color: white;
+}
+
+.button-div {
+  margin-top: 50px;
+}
+
+.sec2-margin {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#p-about-me {
+  margin-right: 150px;
+}
+
+.padding-top {
+  padding-top: 10%;
+}
+
+.sec-2 {
+  background-image: url(/images/shapes/7.png);
+  background-size: 100%;
+}
+
+.recepie-top {
+  text-align: center;
+  margin: 0 300px 0 300px;
+}
+
+.thumbnails {
+  display: flex;
+  margin: 2% 10% 10% 10%;
+}
+
+.recepie {
+  border-radius: 18px;
+  box-shadow: 0 0 10px grey;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 40%;
+  padding: 0 15px 0 15px;
+  padding-bottom: 20px;
+}
+
+.my-recepies {
+  padding-top: 20px;
+}
+
+.recepie img {
+  width: 100%;
+  margin-right: 0;
+  padding-top: 15px;
+
+  display: flex;
+}
+
+#recepie-title {
+  font-size: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  padding-bottom: 25px;
+}
+
+.inner-box {
+  border: 1px solid;
+  padding: 30px 120px 30px 120px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.pricing {
+  background-color: #fef3ec;
+  padding-bottom: 7%;
+}
+
+.item-collection {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+#pricing-h1 {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.item {
+  width: 20%;
+  background-color: white;
+  margin: 10px;
+  border-radius: 18px;
+  padding: 10px 15px 5px 15px;
+  padding-bottom: 20px;
+}
+
+.item img {
+  display: flex;
+  margin: auto;
+}
+
+.item h2,
+h3,
+p {
+  text-align: center;
+}
+
+.item a {
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+  padding-left: 30%;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  padding: 50px;
+}
+
+#footer-p {
+  color: white;
+}
